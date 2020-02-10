@@ -28,8 +28,8 @@ const NaviBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav ">
                     <Nav className="ml-auto " >
-                        <Nav.Link href="/login"> <b>Login</b></Nav.Link>
-                        <Nav.Link href="/register">Register</Nav.Link>
+                        <Nav.Link href="https://talent-search.auth.us-east-1.amazoncognito.com/login?client_id=9r9vtuen9fuc7op1qbt2tr261&amp;response_type=code&amp;scope=phone+profile+email+openid&amp;redirect_uri=https://localhost:3000/"> <b>Login</b></Nav.Link>
+                        <Nav.Link href="https://talent-search.auth.us-east-1.amazoncognito.com/signup?client_id=9r9vtuen9fuc7op1qbt2tr261&amp;response_type=code&amp;scope=phone+profile+email+openid&amp;redirect_uri=https://localhost:3000/">Register</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
